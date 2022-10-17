@@ -10,7 +10,8 @@
 <body>
     <main class="app">
         <section class="greeting">
-            <h2 class="title">Questboard: Welcome Traveler</h2>
+            <h2 class="title">Welcome, traveler, to the</h2>
+            <h1>Q U E S T B O A R D</h1>
         </section>
 
         <section class="create-quest">
@@ -31,11 +32,48 @@
                                 name="category"
                                 id="category1"
                                 value="business" />
-                                <span class="bubble"></span>
+                                <span class="bubble business"></span>
+                                <div>Business</div>
+                        </label>
+
+                        <label>
+                            <input 
+                                type="radio"
+                                name="category"
+                                id="category2"
+                                value="personal" />
+                                <span class="bubble personal"></span>
+                                <div>Personal</div>
                         </label>
                     </div>
+
+                    <input type="submit" value="Add quest" />
             </form>
         </section>
+        
+        <section class="quest-list">
+            <h3>QUEST LIST</h3>
+            <div class="list" id="quest-list">
+                <div class="quest-item">
+                    <label>
+                        <input type="checkbox" />
+                        <span class="bubble business"></span>
+                    </label>
+                </div>
+                
+                <div class="quest-content">
+                    <input type="text" value="Quest content"/>
+                </div>
+
+                <div class="actions">
+                    <button class="edit">Edit</button>
+                    <button class="edit">Delete</button>
+                </div>
+            </div>
+        </section>
+    
+    
+    
     </main>
     <script src="home-proto.js"></script>
 </body>
