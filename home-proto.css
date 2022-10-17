@@ -11,3 +11,30 @@
     --personal-glow: 0px 0px 4px rgba(234,64,164,0.75);
 }
 
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: find a font to use; */
+}
+
+/* inputs that are not a radio button and not a checkbox && buttons */
+input:not([type="radio"]):not([type="checkbox"]), button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: initial;
+}
+
+body{
+    background: var(--light);
+    color: var(--dark);
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
