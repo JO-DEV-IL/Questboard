@@ -31,6 +31,9 @@ input:not([type="radio"]):not([type="checkbox"]), button{
 body{
     background: var(--light);
     color: var(--dark);
+    background-image: url('https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-314.jpg?w=996&t=st=1666883300~exp=1666883900~hmac=b4fc6afb7c0abe96a1d0b0c660a473a1497a02abac63f1aa3f521be218444925');
+    background-position: center;
+    background-size: cover;
 }
 
 section{
